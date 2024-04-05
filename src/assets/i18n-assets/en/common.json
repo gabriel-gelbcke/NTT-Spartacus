@@ -1,0 +1,187 @@
+{
+    "common": {
+      "cancel": "Cancelar",
+      "delete": "Excluir",
+      "remove": "Remover",
+      "edit": "Editar",
+      "restore": "Restaurar",
+      "back": "Voltar",
+      "submit": "Enviar",
+      "continue": "Continuar",
+      "save": "Salvar",
+      "done": "Concluído",
+      "home": "Início",
+      "noData": "Sem dados.",
+      "confirm": "Confirmar",
+      "more": "mais",
+      "close": "Fechar",
+      "loading": "Carregando",
+      "menu": "Menu",
+      "reset": "Redefinir",
+      "search": "Buscar",
+      "add": "Adicionar",
+      "selectFile": "Selecionar arquivo"
+    },
+    "pageMetaResolver": {
+      "category": {
+        "title": "{{count}} resultado para {{query}}",
+        "title_plural": "{{count}} resultados para {{query}}"
+      },
+      "checkout": {
+        "title": "Finalizar compra"
+      },
+      "search": {
+        "title": "{{count}} resultado para \"{{query}}\"",
+        "title_plural": "{{count}} resultados para \"{{query}}\"",
+        "findProductTitle": "{{count}} resultado para cupom \"{{coupon}}\"",
+        "findProductTitle_plural": "{{count}} resultados para cupom \"{{coupon}}\"",
+        "default_title": "Todos os produtos"
+      },
+      "product": {
+        "description": "{{description}}",
+        "heading": "{{heading}}",
+        "title": "{{title}}"
+      }
+    },
+    "spinner": {
+      "loading": "Carregando..."
+    },
+    "navigation": {
+      "shopAll": "Compre todos os {{ navNode}} >"
+    },
+    "searchBox": {
+      "placeholder": "Buscar aqui...",
+      "ariaLabelInput": "Buscar aqui...",
+      "ariaLabelSuggestions": "sugestões de digitação",
+      "ariaLabelProducts": "resultados de produtos",
+      "initialDescription": "Quando os resultados de autocompletar estiverem disponíveis, use as setas para cima e para baixo para revisar e entrar para selecionar. Usuários de dispositivos de toque, explorem tocando ou com gestos de deslizar.",
+      "suggestionsResult": "{{ count }} sugestão e ",
+      "suggestionsResult_plural": "{{ count }} sugestões e ",
+      "productsResult": "{{ count }} produto está disponível.",
+      "productsResult_plural": "{{ count }} produtos estão disponíveis.",
+      "resetLabel": "Redefinir busca",
+      "help": {
+        "insufficientChars": "Por favor, digite mais caracteres",
+        "noMatch": "Não encontramos nenhum resultado",
+        "exactMatch": "{{ term }}",
+        "empty": "Pergunte-nos qualquer coisa"
+      }
+    },
+    "sorting": {
+      "date": "Data",
+      "orderNumber": "Número do pedido",
+      "rma": "Número de devolução",
+      "replenishmentNumber": "Número de reposição",
+      "nextOrderDate": "Próxima data do pedido"
+    },
+    "httpHandlers": {
+      "badGateway": "Ocorreu um erro no servidor. Por favor, tente novamente mais tarde.",
+      "badRequestPleaseLoginAgain": "{{ errorMessage }}. Por favor, faça login novamente.",
+      "badRequestOldPasswordIncorrect": "Senha antiga incorreta.",
+      "badRequestGuestDuplicateEmail":
+        "{{ errorMessage }} email já existe. Por favor, faça o checkout com um email diferente para registrar usando uma conta de convidado.",
+      "conflict": "Já existe.",
+      "forbidden":
+        "Você não está autorizado a realizar esta ação. Por favor, entre em contato com seu administrador se achar que isso é um erro.",
+      "gatewayTimeout": "O servidor não respondeu, por favor, tente novamente mais tarde.",
+      "internalServerError":
+        "Ocorreu um erro interno do servidor. Por favor, tente novamente mais tarde.",
+      "sessionExpired": "Sua sessão expirou. Por favor, faça login novamente.",
+      "unknownError": "Ocorreu um erro desconhecido",
+      "unauthorized": {
+        "common": "Ocorreu um erro de autorização desconhecido",
+        "invalid_client": "Credenciais de cliente inválidas"
+      },
+      "validationErrors": {
+        "missing": {
+          "card_cardType":
+            "O cartão de crédito selecionado não é suportado. Por favor, selecione outro.",
+          "card_accountNumber": "O número do cartão de crédito inserido não é válido.",
+          "card_cvNumber": "O código de segurança inserido não é válido.",
+          "card_expirationMonth":
+            "A data de validade do cartão de crédito inserida não é válida.",
+          "card_expirationYear":
+            "A data de validade do cartão de crédito inserida não é válida.",
+          "billTo_firstName": "O primeiro nome inserido não é válido.",
+          "billTo_lastName": "O último nome inserido não é válido.",
+          "billTo_street1": "O endereço inserido não é válido.",
+          "billTo_street2": "O endereço inserido não é válido.",
+          "billTo_city": "A cidade inserida não é válida para este cartão de crédito.",
+          "billTo_state":
+            "O estado inserido não é válido para este cartão de crédito.",
+          "billTo_country":
+            "O país/região inserido não é válido para este cartão de crédito.",
+          "billTo_postalCode":
+            "O código postal não é válido para este cartão de crédito.",
+          "country": {
+            "isocode": "País/região ausente"
+          }
+        },
+        "invalid": {
+          "card_expirationMonth":
+            "A data de validade do cartão de crédito inserida não é válida.",
+          "firstName": "O primeiro nome inserido não é válido.",
+          "lastName": "O último nome inserido não é válido.",
+          "password": "A senha inserida não é válida.",
+          "uid": "UID não é válido.",
+          "code": "Código não é válido.",
+          "email": "Email não é válido."
+        }
+      },
+      "cartNotFound": "Carrinho não encontrado.",
+      "invalidCodeProvided": "Código fornecido inválido."
+    },
+    "miniCart": {
+      "item": "{{count}} item atualmente no seu carrinho",
+      "item_plural": "{{count}} itens atualmente no seu carrinho",
+      "total": "{{total}}",
+      "count": "{{count}}"
+    },
+    "skipLink": {
+      "skipTo": "Ir para",
+      "labels": {
+        "header": "Cabeçalho",
+        "main": "Conteúdo principal",
+        "footer": "Rodapé",
+        "productFacets": "Product Facets",
+        "productList": "Product List"
+      }
+    },
+    "carousel": {
+      "previousSlide": "Previous slide",
+      "nextSlide": "Next slide",
+      "slideNumber": "Slide {{currentSlideNumber}}"
+    },
+    "formErrors": {
+      "globalMessage": "The form you are trying to submit contains errors.",
+      "required": "This field is required",
+      "cxInvalidEmail": "This is not a valid email format",
+      "cxInvalidPassword": "This is not a valid password format",
+      "cxPasswordsMustMatch": "Password fields must match",
+      "cxEmailsMustMatch": "Email fields must match",
+      "cxStarRatingEmpty": "Rating field is required",
+      "cxNoSelectedItemToCancel": "Select at least one item",
+      "cxNegativeAmount": "Amount must be equal or greater than zero",
+      "cxContainsSpecialCharacters": "Field cannot contain special characters",
+      "date": {
+        "required": "This field is required",
+        "min": "Date cannot be before {{min}}",
+        "max": "Date cannot be after {{max}}",
+        "pattern": "Use dateformat yyyy-mm-dd",
+        "invalid": "Use a valid date"
+      },
+      "file": {
+        "required": "File is required",
+        "empty": "File should not be empty",
+        "invalidExtension": "File extension is not valid",
+        "tooLarge": "File size should not exceed {{ maxSize }} MB",
+        "tooManyEntries": "The number of items is greater than {{ maxEntries }}",
+        "notParsable": "File is not parsable"
+      }
+    },
+    "errorHandlers": {
+      "scriptFailedToLoad": "Failed to load the script.",
+      "refreshThePage": "Please refresh the page."
+    }
+  }
+  

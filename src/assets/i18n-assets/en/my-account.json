@@ -1,0 +1,276 @@
+{
+  "orderDetails": {
+    "orderId": "Pedido #",
+    "orderNumber": "Número do Pedido",
+    "replenishmentId": "Reabastecimento #",
+    "purchaseOrderId": "Ordem de Compra #",
+    "purchaseOrderNumber": "Número da Ordem de Compra",
+    "emptyPurchaseOrderId": "Nenhum",
+    "none": "Nenhum {{value}}",
+    "placed": "Realizado",
+    "placedBy": "Realizado Por",
+    "unit": "Unidade",
+    "costCenter": "Centro de Custo",
+    "costCenterAndUnit": "Centro de Custo / Unidade",
+    "costCenterAndUnitValue": "{{costCenterName}} / {{unitName}}",
+    "methodOfPayment": "Método de Pagamento",
+    "payByAccount": "Pagar por Conta",
+    "paidByCreditCard": "(pago com cartão de crédito)",
+    "status": "Status",
+    "active": "Ativo",
+    "shippedOn": "Enviado em",
+    "shippingMethod": "Método de Envio",
+    "placedOn": "Realizado em",
+    "startOn": "Iniciar Em",
+    "nextOrderDate": "Próxima Data do Pedido",
+    "frequency": "Frequência",
+    "cancelled": " Cancelado",
+    "deliveryStatus_IN_TRANSIT": "Em Trânsito",
+    "deliveryStatus_READY_FOR_PICKUP": "Pronto para Retirada",
+    "deliveryStatus_READY_FOR_SHIPPING": "Pronto para Envio",
+    "deliveryStatus_WAITING": "Aguardando",
+    "deliveryStatus_DELIVERING": "Entregando",
+    "deliveryStatus_PICKPACK": "Preparando para Envio",
+    "deliveryStatus_PICKUP_COMPLETE": "Retirada Completa",
+    "deliveryStatus_DELIVERY_COMPLETED": "Entrega Completa",
+    "deliveryStatus_PAYMENT_NOT_CAPTURED": "Problema de Pagamento",
+    "deliveryStatus_READY": "Em Processo",
+    "deliveryStatus_DELIVERY_REJECTED": "Entrega Rejeitada",
+    "deliveryStatus_SHIPPED": "Enviado",
+    "deliveryStatus_TAX_NOT_COMMITTED": "Problema Tributário",
+    "deliveryStatus_CANCELLED": "Cancelado",
+    "statusDisplay_cancelled": "Cancelado",
+    "statusDisplay_cancelling": "Cancelamento Pendente",
+    "statusDisplay_completed": "Concluído",
+    "statusDisplay_created": "Criado",
+    "statusDisplay_error": "Pendente",
+    "statusDisplay_Error": "Pendente",
+    "statusDisplay_processing": "Pendente",
+    "statusDisplay_open": "Aberto",
+    "statusDisplay_pending": {
+      "approval": "Aprovação Pendente",
+      "merchant": {
+        "approval": "Aprovação do Comerciante Pendente"
+      }
+    },
+    "statusDisplay_approved": "Aprovado",
+    "statusDisplay_rejected": "Rejeitado",
+    "statusDisplay_merchant": {
+      "approved": "Comerciante Aprovado",
+      "rejected": "Comerciante Rejeitado"
+    },
+    "statusDisplay_assigned": {
+      "admin": "Atribuído ao Administrador"
+    },
+    "consignmentTracking": {
+      "action": "Rastrear Pacote",
+      "dialog": {
+        "header": "Informações de Rastreamento",
+        "shipped": "Enviado",
+        "estimate": "Entrega Estimada",
+        "carrier": "Serviço de Entrega",
+        "trackingId": "Número de Rastreamento",
+        "noTracking":
+          "O pacote não foi despachado do depósito. As informações de rastreamento estarão disponíveis após o envio do pacote.",
+        "loadingHeader": "Rastreamento de Consignação"
+      }
+    },
+    "cancellationAndReturn": {
+      "returnAction": "Solicitar Devolução",
+      "cancelAction": "Cancelar Itens",
+      "item": "Item",
+      "itemPrice": "Preço do Item",
+      "quantity": "Quantidade Máx",
+      "returnQty": "Quantidade para Devolução",
+      "cancelQty": "Quantidade para Cancelar",
+      "setAll": "Definir todas as quantidades para o máximo",
+      "totalPrice": "Total",
+      "submit": "Enviar Solicitação",
+      "returnSuccess": "Sua solicitação de devolução ({{rma}}) foi enviada",
+      "cancelSuccess":
+        "Sua solicitação de cancelamento foi enviada (pedido original {{orderCode}} será atualizado)"
+    },
+    "cancelReplenishment": {
+      "title": "Cancelar Reabastecimento",
+      "description": "Cancelar qualquer pedido de reabastecimento futuro?",
+      "accept": "Sim",
+      "reject": "Não",
+      "cancelSuccess":
+        "O pedido de reabastecimento #{{replenishmentOrderCode}} foi cancelado com sucesso"
+    }
+  },
+  "orderHistory": {
+    "orderHistory": "Histórico de Pedidos",
+    "orderId": "Pedido #",
+    "emptyPurchaseOrderId": "Nenhum",
+    "date": "Data",
+    "status": "Status",
+    "total": "Total",
+    "noOrders": "Não temos registros de pedidos para esta conta.",
+    "noReplenishmentOrders":
+      "Não temos registros de pedidos de reabastecimento para esta conta.",
+    "startShopping": "Começar a Comprar",
+    "sortBy": "Ordenar por",
+    "replenishmentOrderHistory": "Histórico de Pedidos de Reabastecimento",
+    "replenishmentOrderId": "Reabastecimento #",
+    "purchaseOrderNumber": "PO #",
+    "startOn": "Iniciar Em",
+    "frequency": "Frequência",
+    "nextOrderDate": "Próxima Data do Pedido",
+    "cancel": "Cancelar",
+    "cancelled": "Cancelado",
+    "replenishmentHistory": "Histórico de Reabastecimento",
+    "notFound": "Nenhum Pedido Encontrado"
+  },
+  "closeAccount": {
+    "confirmAccountClosure": "Confirmar Fechamento da Conta",
+    "confirmAccountClosureMessage":
+      "Tem certeza de que deseja fechar sua conta?",
+    "closeMyAccount": "FECHAR MINHA CONTA",
+    "accountClosedSuccessfully": "Conta fechada com sucesso",
+    "accountClosedFailure": "Falha ao fechar a conta"
+  },
+
+  "updatePasswordForm": {
+    "oldPassword": {
+      "label": "Senha Antiga",
+      "placeholder": "Senha Antiga"
+    },
+    "oldPasswordIsRequired": "Senha antiga é obrigatória.",
+    "newPassword": {
+      "label": "Nova Senha",
+      "placeholder": "Nova Senha"
+    },
+    "passwordMinRequirements":
+      "A senha deve ter no mínimo seis caracteres, com uma letra maiúscula, um número, um símbolo",
+    "confirmPassword": {
+      "label": "Confirmar Nova Senha",
+      "placeholder": "Confirmar Senha"
+    },
+    "bothPasswordMustMatch": "Ambas as senhas devem coincidir",
+    "passwordUpdateSuccess": "Senha atualizada com sucesso"
+  },
+  "updateProfileForm": {
+    "title": "",
+    "none": "",
+    "firstName": {
+      "label": "Nome",
+      "placeholder": "Nome"
+    },
+    "firstNameIsRequired": "O nome é obrigatório.",
+    "lastName": {
+      "label": "Sobrenome",
+      "placeholder": "Sobrenome"
+    },
+    "lastNameIsRequired": "O sobrenome é obrigatório.",
+    "profileUpdateSuccess": "Detalhes pessoais atualizados com sucesso",
+    "customerId": "Cliente #"
+  },
+  "consentManagementForm": {
+    "clearAll": "Limpar tudo",
+    "selectAll": "Selecionar tudo",
+    "message": {
+      "success": {
+        "given": "Consentimento concedido com sucesso.",
+        "withdrawn": "Consentimento retirado com sucesso."
+      }
+    }
+  },
+  "myCoupons": {
+    "noCouponsMessage": "Você não tem cupons disponíveis.",
+    "effectiveTitle": "Efetivo:",
+    "Effective": "EFETIVO",
+    "PreSession": "EFETIVO EM BREVE",
+    "ExpireSoon": "EXPIRANDO EM BREVE",
+    "readMore": "Leia mais",
+    "notification": "Notificação",
+    "findProducts": "Encontrar Produtos",
+    "status": "Status:",
+    "dialogTitle": "Cupom",
+    "claimCustomerCoupon": "Você reivindicou este cupom com sucesso.",
+    "myCoupons": "Meus Cupons",
+    "startDateAsc": "Data de Início (crescente)",
+    "startDateDesc": "Data de Início (decrescente)",
+    "endDateAsc": "Data de Término (crescente)",
+    "endDateDesc": "Data de Término (decrescente)",
+    "sortBy": "Ordenar por",
+    "notesPreffix":
+      "Você pode definir seus canais preferidos para receber notificações de cupom na ",
+    "notesLink": "Página de Canais de Notificação",
+    "notesSuffix": "."
+  },
+  "notificationPreference": {
+    "message": "Selecione seus canais de notificação preferidos",
+    "note": "Nota: ",
+    "noteMessage":
+      "Se você desativar todos os canais, não poderá receber mais nenhuma notificação.",
+    "EMAIL": "Email:",
+    "SMS": "SMS:",
+    "SITE_MESSAGE": "Mensagem do Site"
+  },
+  "myInterests": {
+    "header": "Meus Interesses",
+    "item": "ITEM",
+    "price": "PREÇO",
+    "notifications": "NOTIFICAÇÕES",
+    "noInterests": "Você ainda não tem interesses registrados.",
+    "inStock": "Em Estoque",
+    "lowStock": "Estoque Baixo",
+    "outOfStock": "Fora de Estoque",
+    "BACK_IN_STOCK": "De Volta ao Estoque",
+    "sortBy": "Ordenar por",
+    "expirationDate": " - Até {{ expirationDate }}",
+    "productId": "ID {{ code }}",
+    "remove": "REMOVER",
+    "sorting": {
+      "byNameAsc": "Nome (crescente)",
+      "byNameDesc": "Nome (decrescente)"
+    }
+  },
+  "AccountOrderHistoryTabContainer": {
+    "tabs": {
+      "AccountOrderHistoryComponent": "TODOS OS PEDIDOS ({{param}})",
+      "OrderReturnRequestListComponent": "DEVOLUÇÕES ({{param}})"
+    }
+  },
+  "returnRequestList": {
+    "returnRequestId": "Devolução #",
+    "orderId": "Pedido #",
+    "date": "Data de Criação",
+    "status": "Status",
+    "sortBy": "Ordenar por",
+    "statusDisplay_APPROVAL_PENDING": "Aprovação Pendente",
+    "statusDisplay_CANCELED": "Cancelado",
+    "statusDisplay_CANCELLING": "Cancelando",
+    "statusDisplay_WAIT": "Aguardando",
+    "statusDisplay_RECEIVED": "Recebido",
+    "statusDisplay_RECEIVING": "Recebendo",
+    "statusDisplay_APPROVING": "Aprovando",
+    "statusDisplay_REVERSING_PAYMENT": "Revertendo Pagamento",
+    "statusDisplay_PAYMENT_REVERSED": "Pagamento Revertido",
+    "statusDisplay_PAYMENT_REVERSAL_FAILED": "Falha na Reversão de Pagamento",
+    "statusDisplay_REVERSING_TAX": "Revertendo Imposto",
+    "statusDisplay_TAX_REVERSED": "Imposto Revertido",
+    "statusDisplay_TAX_REVERSAL_FAILED": "Falha na Reversão de Imposto",
+    "statusDisplay_COMPLETED": "Concluído"
+  },
+  "returnRequest": {
+    "returnRequestId": "Solicitação de Devolução #",
+    "orderCode": "Para Pedido #",
+    "status": "Status da Devolução",
+    "cancel": "Cancelar Solicitação de Devolução",
+    "item": "Descrição",
+    "itemPrice": "Preço do Item",
+    "returnQty": "Quantidade para Devolução",
+    "total": "Total",
+    "summary": "Totais da Devolução",
+    "subtotal": "Subtotal",
+    "deliveryCode": "Custo de Entrega",
+    "estimatedRefund": "Reembolso Estimado",
+    "note": "Os totais são estimados e podem não incluir impostos aplicáveis ou outras taxas.",
+    "cancelSuccess": "Sua solicitação de devolução ({{rma}}) foi cancelada"
+  },
+  "wishlist": {
+    "empty": "Nenhum produto em sua lista de desejos ainda"
+  }
+}

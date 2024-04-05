@@ -1,0 +1,32 @@
+{
+  "anonymousConsents": {
+    "preferences": "Preferências de Consentimento",
+    "dialog": {
+      "title": "Gerenciamento de Consentimento",
+      "legalDescription":
+        "Usamos cookies/armazenamento no navegador para personalizar o conteúdo e melhorar a experiência do usuário. Também podemos compartilhar dados sobre o uso do site com nossas mídias sociais. Para mais informações, consulte nossa política de privacidade.",
+      "selectAll": "Selecionar tudo",
+      "clearAll": "Limpar tudo"
+    },
+    "banner": {
+      "title": "Este site utiliza cookies",
+      "description":
+        "Utilizamos cookies/armazenamento no navegador para personalizar o conteúdo e melhorar a experiência do usuário.",
+      "allowAll": "Permitir Todos",
+      "viewDetails": "Ver Detalhes"
+    }
+  },
+  "checkoutLogin": {
+    "emailAddress": {
+      "label": "Endereço de Email",
+      "placeholder": "Insira o email"
+    },
+    "confirmEmail": {
+      "label": "Confirmar Email",
+      "placeholder": "Confirmar email"
+    },
+    "continue": "Continuar",
+    "emailIsRequired": "Formato de email inválido",
+    "emailsMustMatch": "Os emails não correspondem"
+  }
+}
